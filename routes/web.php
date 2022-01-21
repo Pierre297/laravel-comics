@@ -20,10 +20,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('layout.main');
-});
-Route::get('/', function () {
+})->name('main');
+Route::get('footer', function () {
     return view('components.footer');
-});
-Route::get('/', function () {
+})->name('footer');
+Route::get('header', function () {
     return view('components.header');
-});
+})->name('header');

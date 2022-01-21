@@ -10,6 +10,7 @@
     
     <section>
         @include('components.header')
+        <h1>sono il main</h1>
         @yield('content')
         @include('components.footer')
     </section>
