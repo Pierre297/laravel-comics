@@ -10,8 +10,23 @@
 <body>
     
     <section>
+        {{-- header --}}
         @include('components.header')
-        <h1>sono il main</h1>
+
+        {{-- main --}}
+        <main>
+            <div id="jumbo">
+
+            </div>
+            <div class="content">
+                
+                <button class="blue-btn first-btn" type="button"> <a href="#">CURRENT SERIES</a></button>
+                <div id="comic-books"></div>
+                <button class="blue-btn" type="button"><a href="#">LOAD MORE</a></button>
+            </div>
+        </main>
+        
+
         {{-- @yield('content') --}}
         @include('components.footer')
     </section>
