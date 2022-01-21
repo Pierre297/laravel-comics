@@ -57,7 +57,7 @@ main {
 
 .content {
     width: 80%;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 #jumbo {
     background-image: url("https://cdn.discordapp.com/attachments/852906870033481799/934122558238896238/jumbotron.jpg");
@@ -77,5 +77,31 @@ main {
     a {
         text-decoration: none;
         color: white;
+    }
+}
+
+.first-btn {
+    margin-top: -15px;
+}
+
+#comic-books {
+    width: 100%;
+    background-color: hsl(0deg 0% 11%);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+
+    .product {
+        margin: 30px auto;
+        text-align: center;
+        width: 15%;
+
+        img {
+            height: 235px;
+        }
+    }
+
+    h3 {
+        vertical-align: middle;
     }
 }
