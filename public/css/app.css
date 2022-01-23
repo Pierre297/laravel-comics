@@ -82,6 +82,7 @@ main {
 
 .first-btn {
   margin-top: -15px;
+  margin-left: 50px;
 }
 
 #comic-books {
@@ -104,5 +105,74 @@ main {
 
 #comic-books h3 {
   vertical-align: middle;
+}
+
+.second--btn {
+  margin-left: 45%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.links {
+  background-color: #0282f9;
+  width: 100%;
+  height: 175px;
+}
+
+.links .link-container {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.links div {
+  color: white;
+  padding-top: 40px;
+}
+
+.links div .fas {
+  margin-right: 15px;
+  font-size: 30px;
+}
+
+.links div .fab {
+  margin-right: 15px;
+  font-size: 30px;
+}
+
+.links div span {
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  text-align: center;
+  background-image: url("https://cdn.discordapp.com/attachments/852906870033481799/934833409522548736/footer-bg.jpg");
+}
+
+.list {
+  margin: 30px;
+}
+
+.list h3 {
+  margin-top: 20px;
+}
+
+#dc-links {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 100px;
+}
+
+#dc-links h3 {
+  color: white;
+}
+
+#dc-links li {
+  color: #5e6b70;
+  list-style-type: none;
 }
 
