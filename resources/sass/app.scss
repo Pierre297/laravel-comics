@@ -149,7 +149,7 @@ main {
     justify-content: space-between;
     height: 300px;
     text-align: center;
-    background-image: url("storage/public/assets/footer-bg.jpg");
+    background-image: url("../../public/storage/assets/footer-bg.jpg");
 }
 
 .list {
@@ -177,8 +177,55 @@ main {
 
 // comic page
 
-.comic-main {
+.comic-banner {
     background-color: #0282f9;
     height: 100px;
     width: 100%;
+
+    img {
+        margin-left: 300px;
+        margin-top: -225px;
+    }
+}
+
+.comic-main {
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+
+    h3 {
+        color: #084676;
+        font-size: 30px;
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+}
+
+.green-btn {
+    background-color: #55ba59;
+    display: inline-block;
+    border: 1px solid gray;
+    cursor: pointer;
+
+    div {
+        display: inline-block;
+        margin-top: 10px;
+    }
+}
+
+.first-green {
+    width: 400px;
+    height: 40px;
+}
+
+.second-green {
+    height: 40px;
+    width: 200px;
+    text-align: center;
+}
+
+.description {
+    width: 600px;
+    margin: 20px 0 100px 0;
 }
