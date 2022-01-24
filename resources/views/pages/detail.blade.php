@@ -40,6 +40,12 @@
     </div>
 
     {{-- advertisement --}}
-    <div></div>
+    <div class="adv">
+        <h4>ADVERTISEMENT</h4>
+        <div class="adv-comic">
+            <h3>UNLEASH HEROIC REWARDS</h3>
+            <button>APPLY NOW</button>
+        </div>
+    </div>
     </div>
 @endsection
