@@ -149,7 +149,7 @@ main {
     justify-content: space-between;
     height: 300px;
     text-align: center;
-    background-image: url("https://cdn.discordapp.com/attachments/852906870033481799/934833409522548736/footer-bg.jpg");
+    background-image: url("storage/public/assets/footer-bg.jpg");
 }
 
 .list {
@@ -173,4 +173,12 @@ main {
 #dc-links li {
     color: #5e6b70;
     list-style-type: none;
+}
+
+// comic page
+
+.comic-main {
+    background-color: #0282f9;
+    height: 100px;
+    width: 100%;
 }

@@ -19,11 +19,9 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return view('layout.main');
-})->name('main');
-Route::get('footer', function () {
-    return view('components.footer');
-})->name('footer');
-Route::get('header', function () {
-    return view('components.header');
-})->name('header');
+    return view('pages.main');
+})->name('comics');
+
+Route::get('detail', function () {
+    return view('pages.detail');
+})->name('detail');
