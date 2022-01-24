@@ -5,7 +5,5 @@
     <div id="jumbo">
 
     </div>
-    <div class="comic-main">
-        
-    </div>
+    <div class="comic-main"></div>
 @endsection
